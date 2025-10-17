@@ -4,13 +4,12 @@ This project implements and analyzes Reinforcement Learning (RL) algorithms usin
 
 Project Overview
 
-Implementing a reinforcement learning model (e.g., Q-Learning or Monte Carlo methods)
+This project presents a comprehensive analysis of reinforcement learning methods using the OpenAI Gymnasium Taxi-v3 environment. The main objective is to train an autonomous agent capable of efficiently navigating and completing pickup–dropoff tasks while optimizing long-term rewards.
 
-Training the model in the Taxi-v3 environment from Gymnasium
+The notebook implements the Q-Learning algorithm and compares the performance of various hyperparameter combinations—specifically learning rate (α) and exploration factor (ε)—to understand their impact on convergence speed, stability, and overall learning efficiency.
 
-Evaluating learning performance using average reward, number of steps, and training stability
-
-Visualizing training performance through plots
+Through systematic experimentation and visualization of average rewards, steps per episode, and training progress, the project highlights the trade-offs between exploration and exploitation.
+It concludes by identifying the best-performing parameter set (α = 0.2, ε = 0.1) that achieves higher average rewards, faster convergence, and improved policy robustness.
 
 Repository Structure
 RF Assignment 2.ipynb – Main Jupyter Notebook with full implementation
@@ -19,42 +18,6 @@ requirements.txt – Python dependencies
 .gitignore – Ignored files and directories
 README.md – Project documentation
 
-Installation
-Step 1: Clone the Repository
-git clone https://github.com/yourusername/RL-Assignment2.git
-
-cd RL-Assignment2
-
-Step 2: Create and Activate Virtual Environment
-python -m venv venv
-source venv/bin/activate (On Windows: venv\Scripts\activate)
-
-Step 3: Install Dependencies
-pip install -r requirements.txt
-
-Running the Notebook
-Launch Jupyter Notebook or JupyterLab and open the file:
-jupyter notebook "RF Assignment 2.ipynb"
-Then run all cells sequentially to reproduce results and plots.
-
-Output and Results
-The notebook produces metrics and visualizations for:
-
-Average Reward per Episode
-
-Average Steps per Episode
-
-Impact of Learning Rate (α) and Exploration Factor (ε)
-
-Plots and results are automatically displayed within the notebook.
-
-Insights
-
-Higher learning rate (α) accelerates convergence but can increase variability.
-
-Lower exploration factor (ε) helps refine policy but risks local optima.
-
-The optimal configuration (based on your results): α = 0.2, ε = 0.1 produced higher average reward and reduced steps.
 
 Author
 Name: Kumari Nikitha Singh
