@@ -12,10 +12,14 @@ Through systematic experimentation and visualization of average rewards, steps p
 It concludes by identifying the best-performing parameter set (α = 0.2, ε = 0.1) that achieves higher average rewards, faster convergence, and improved policy robustness.
 
 Repository Structure
+
 RF Assignment 2.ipynb – Main Jupyter Notebook with full implementation
+
 assignment2_utils.py – Utility functions (simulation, metrics, plotting)
 requirements.txt – Python dependencies
+
 .gitignore – Ignored files and directories
+
 README.md – Project documentation
 
 
